@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Городской конкурс "Spelling Bee"</title>
+    <meta name="description" content="Приглашаем школьников на конкурс по правописанию по английскому языку Spelling Bee в Нижегородском экономико-технологическом колледже!">
+    <link rel="stylesheet" href="vvv.css">
+    <script defer src="p.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">НЭТК <span class="heart">♥</span> </div>
+        <nav>
+            <ul>
+                <li><a href="#about">О конкурсе</a></li>
+                <li><a href="#schedule">Сроки</a></li>
+                <li><a href="#registration">Заявка</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Spelling Bee 2026</h1>
+        <p>Городской конкурс по правописанию по английскому языку для школьников г. Арзамаса</p>
+        <button id="ctaBtn">Принять участие</button>
+    </section>
+
+    <section id="about">
+        <h2>О конкурсе</h2>
+        <p>
+            <strong>Spelling Bee</strong> — это конкурс по правописанию английских слов среди учащихся 8-11 классов.<br>
+            Место проведения: Нижегородский экономико-технологический колледж, пр-т Ленина, д.200.<br>
+            Дата: <span class="highlight">21 ноября 2026 года</span> в 13:00.
+        </p>
+        <ul>
+            <li>Популяризация изучения английского языка</li>
+            <li>Развитие интереса к иностранным языкам</li>
+            <li>Возможность проявить себя и получить диплом</li>
+        </ul>
+    </section>
+
+    <section id="schedule">
+        <h2>Сроки проведения</h2>
+        <ul>
+            <li>Приём заявок: до 18 ноября 2026 года</li>
+            <li>Конкурс: 21 ноября 2026 года</li>
+        </ul>
+        <div class="countdown">
+            <span id="days">--</span> дней до конкурса!
+        </div>
+    </section>
+
+    <section id="registration">
+        <h2>Как принять участие?</h2>
+        <p>Заполните форму для обратной связи ниже, и координатор конкурса свяжется с вами!</p>
+        <form id="feedbackForm">
+            <label>Фамилия, имя участника:
+                <input type="text" name="name" required>
+            </label>
+            <label>Школа, класс:
+                <input type="text" name="school" required>
+            </label>
+            <label>ФИО преподавателя:
+                <input type="text" name="teacher" required>
+            </label>
+            <label>Контактный телефон преподавателя:
+                <input type="tel" name="phone" required>
+            </label>
+            <label>E-mail для связи:
+                <input type="email" name="email" required>
+            </label>
+            <button type="submit">Отправить заявку</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>
+            Координатор: Кириллова Зинаида Александровна<br>
+            Телефон: <a href="tel:+79601830410">8-960-183-0410</a><br>
+            E-mail: <a href="mailto:atpk-itc@yandex.ru">atpk-itc@yandex.ru</a>
+        </p>
+        <div class="social-marketing">
+            <a href="https://vk.com/netk_arzamaz" target="_blank" class="vk-btn">ВКонтакте</a>
+            <a href="mailto:atpk-itc@yandex.ru" class="mail-btn">Почта</a>
+        </div>
+        <p>Следите за новостями в нашей группе ВКонтакте!</p>
+    </section>
+
+    <footer>
+        © 2026 Нижегородский экономико-технологический колледж. <br>
+    </footer>
+</body>
+</html>
